@@ -1,0 +1,4 @@
+1. 递归的dfs遍历：通过递归自下而上解决问题 通常是 object a = dfs(root.left) 把左右子树带入作为input，充当新的root，
+    直到叶子结点（if root == null）作为终止条件； 返回值根据方法的返回类型，表示截止到这一层树结构的结果
+2. 迭代+stack的dfs：通过自上而下（一直找到底所以是dfs）解决问题，通常是和bfs思路一致，因为是stack，所以可以保证是深度优先
+3. dfs 和 bfs的迭代思路一样，唯一区别就是stack和queue
